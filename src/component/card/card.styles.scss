@@ -1,0 +1,19 @@
+.card-container{
+    height:400px;
+    width:350px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    border-radius:10px;
+
+    background-color:violet;
+    transition:transform 0.5s;
+
+    &:hover {
+        transform:scale(1.05);
+        cursor:pointer;
+    }
+}

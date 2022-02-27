@@ -1,0 +1,12 @@
+.search-box {
+    display:block;
+    margin:auto;
+    margin-bottom:25px;
+
+    border:none;
+    padding:10px;
+
+    &:focus{
+        outline:none;
+    }
+}
